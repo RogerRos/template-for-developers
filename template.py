@@ -73,3 +73,5 @@ for e in range(1000):  # Número de episodios
         agent.replay(batch_size)  # Reentrenar el modelo con experiencias pasadas
 
 agent.save("dqn_model.h5")  # Guardar pesos del modelo
+
+# Created by Roger Ros | thanks for using my template!
